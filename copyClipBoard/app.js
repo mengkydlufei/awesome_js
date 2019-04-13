@@ -9,6 +9,7 @@ const copy2Clipboard = str => {
   const selected = document.getSelection().rangeCount > 0 ? document.getSelection().getRangeAt(0) : false
 
   textarea.select()
+  // res=textarea.getAnimations()
   document.execCommand('copy')
   document.body.removeChild(textarea)
 
