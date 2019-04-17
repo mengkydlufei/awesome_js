@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 8vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  line-height: 100%;
+}
+
+.home {
+  margin: 100vh 0;
+}
